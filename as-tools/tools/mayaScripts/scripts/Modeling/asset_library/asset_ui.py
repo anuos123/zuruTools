@@ -1,4 +1,5 @@
 import os,sys
+import json
 import PySide2.QtWidgets as QtWidgets
 import PySide2.QtCore as QtCore
 import PySide2.QtGui as QtGui
@@ -11,6 +12,10 @@ import importlib
 
 #library config
 from . import config
+current_path = os.path.abspath(os.path.dirname(__file__))
+config_json = os.path.abspath(os.path.join(current_path,'config.json'))
+template_json = os.path.abspath(os.path.join(current_path,'template.json'))
+project_path = config.project_path
 
 # noinspection PyInterpreter
 def getMainWindowPtr():
@@ -112,10 +117,23 @@ class asset_window(QtWidgets.QMainWindow):
             self.aseet_envs_cb.setChecked(False)
 
     def load_image_to_layout(self):
+        icon = QtGui.QIcon()
+
+        image_list = []
+        with open(config_json) as f:
+            result = json.load(f)
+        asset_name = result.get("asset")
+        type_name = result.get("type")
+        file_path = os.path.abspath(os.path.join(project_path, asset_name, type_name))
+        for root,dirs,files in os.walk(file_path):
+            for file in files:
+                if ".png" in file:
+                    image_list.append(os.path.join(root,file))
+
         row = -1
         column = 0
         coordineteList = []
-        for index in range(10):
+        for index in range(len(image_list)):
             if index%5:
                 column +=1
                 coordineteList.append([row,column])
@@ -124,19 +142,15 @@ class asset_window(QtWidgets.QMainWindow):
                 column=0
                 coordineteList.append([row, column])
 
-        for i in range(len('xxxxxxxxxx')):
+        for i in range(len(image_list)):
             toolButton = QtWidgets.QToolButton()
             toolButton.setObjectName('toolButton_%s'%i)
             toolButton.setText('toolButtons_%s'%i)
 
             self.asset_widget_layout.addWidget(toolButton,coordineteList[i][0],coordineteList[i][1],1,1)
-
-            print(self.asset_name_layout.count())
-            # with open(config_json) as f:
-        #     result = json.load(f)
-        # asset_name = result.get("asset")
-        # type_name = result.get("type")
-        # file_path = os.path.abspath(os.path.join(project_path,asset_name,type_name))
+            icon.addPixmap(QtGui.QPixmap(image_list[i]),QtGui.QIcon.Normal,QtGui.QIcon.Off)
+            toolButton.setIcon(icon)
+            toolButton.setIconSize(QtCore.QSize(100,100))
 
     def show_asset_widget(self):
         from . import create_aseet_window

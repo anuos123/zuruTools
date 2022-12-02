@@ -1,6 +1,7 @@
 import json
 import logging
 import os,sys
+#from PIL import  Image
 import PySide2.QtWidgets as QtWidgets
 import PySide2.QtCore as QtCore
 import PySide2.QtGui as QtGui
@@ -52,7 +53,7 @@ class create_asset_window(QtWidgets.QWidget):
         asset_name = result.get("asset")
         type_name = result.get("type")
         file_path = os.path.abspath(os.path.join(project_path,asset_name,type_name))
-
+        # print(file_path)
         if self.cs_line.text():
             if os.path.exists(file_path):
                 with open(template_json) as f:
@@ -62,7 +63,12 @@ class create_asset_window(QtWidgets.QWidget):
                         for cf in template_result.get("config"):
                             template_folder = os.path.abspath(os.path.join(file_path,self.cs_line.text(),level,cf))
                             os.makedirs(template_folder)
-                    logging.info("Creation complete !")
+                            if 'High\Image' in template_folder:
+                                if not os.path.exists(os.path.join(template_folder,'{}.png'.format(self.cs_line.text()))):
+                                    with open(os.path.join(template_folder,'{}.png'.format(self.cs_line.text())),'w') as f:
+                                        pass
+
+                    logging.info("Asset '{}' ,Creation complete !".format(self.cs_line.text()))
                     self.close()
                 else:
                     logging.error('Folder "{}" is Exists'.format(self.cs_line.text()))
