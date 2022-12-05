@@ -37,6 +37,6 @@ def show():
         elif m == 'Animation':
             pass
         elif m == 'Utillties':
-            pass
+            pm.menuItem(l=u"ReNameTools >> 重命名工具", c='from RenameTools import RenameTools_ui;reload(RenameTools_ui);RenameTools_ui.main()')
         else:
             pm.menuItem(l=u"About >> 工具使用手册", c="Test()")
