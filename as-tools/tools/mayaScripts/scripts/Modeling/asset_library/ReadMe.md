@@ -58,3 +58,4 @@
 <br />9.Maya截图保存到image
 <br />10.提交文件自检,返回到4自检
 <br />11.资产名称安装正常顺序排序
+<br />12.https://stackoverflow.com/questions/40493996/how-to-customize-qpushbutton-to-only-popup-menu-when-clicked-around-the-arrow

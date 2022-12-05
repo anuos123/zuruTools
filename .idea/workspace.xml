@@ -5,11 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="cb70af94-40ee-4aa6-93ba-a8574512174c" name="Changes" comment="Asset updata">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/as-tools/tools/mayaScripts/scripts/Modeling/asset_library/ReadMe.md" beforeDir="false" afterPath="$PROJECT_DIR$/as-tools/tools/mayaScripts/scripts/Modeling/asset_library/ReadMe.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/as-tools/tools/mayaScripts/scripts/Modeling/asset_library/asset_ui.py" beforeDir="false" afterPath="$PROJECT_DIR$/as-tools/tools/mayaScripts/scripts/Modeling/asset_library/asset_ui.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/as-tools/tools/mayaScripts/scripts/Modeling/asset_library/config.py" beforeDir="false" afterPath="$PROJECT_DIR$/as-tools/tools/mayaScripts/scripts/Modeling/asset_library/config.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/as-tools/tools/mayaScripts/scripts/Modeling/asset_library/create_aseet_window.py" beforeDir="false" afterPath="$PROJECT_DIR$/as-tools/tools/mayaScripts/scripts/Modeling/asset_library/create_aseet_window.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -167,7 +163,14 @@
       <option name="project" value="LOCAL" />
       <updated>1669979368619</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Asset updata">
+      <created>1670235775137</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1670235775137</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
