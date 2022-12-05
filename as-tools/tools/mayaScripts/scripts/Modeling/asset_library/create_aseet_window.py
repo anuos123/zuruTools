@@ -40,10 +40,12 @@ class create_asset_window(QtWidgets.QWidget):
         self._linelaout.addWidget(self.cs_label)
         self._linelaout.addWidget(self.cs_line)
 
+
         self.cs_mainlayout.addLayout(self._linelaout)
         self.cs_mainlayout.addWidget(self.create_bnt)
 
         self.create_bnt.clicked.connect(self.create_asset_folder)
+        self.cs_line.returnPressed.connect(self.create_asset_folder)
 
         self.setLayout(self.cs_mainlayout)
 
@@ -64,8 +66,9 @@ class create_asset_window(QtWidgets.QWidget):
                             template_folder = os.path.abspath(os.path.join(file_path,self.cs_line.text(),level,cf))
                             os.makedirs(template_folder)
                             if 'High\Image' in template_folder:
-                                if not os.path.exists(os.path.join(template_folder,'{}.png'.format(self.cs_line.text()))):
-                                    with open(os.path.join(template_folder,'{}.png'.format(self.cs_line.text())),'w') as f:
+                                png_path = os.path.join(template_folder,'{}.png'.format(self.cs_line.text()))
+                                if not os.path.exists(png_path):
+                                    with open(png_path,'w') as f:
                                         pass
 
                     logging.info("Asset '{}' ,Creation complete !".format(self.cs_line.text()))

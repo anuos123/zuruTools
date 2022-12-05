@@ -6,3 +6,6 @@ project_path = 'D:/New/Asset'
 asset_name = ''
 file_path = '*.ma'
 
+
+
+

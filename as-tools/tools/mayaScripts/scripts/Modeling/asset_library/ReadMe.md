@@ -30,6 +30,11 @@
 <br />8.检查模型是否对称
 <br />9.检查模型是否存在历史
 
+<br /> 参考案例(https://github.com/JakobJK/modelChecker)
+<br />D:\Mya_ScriptCode\modelChecker\modelChecker
+<br />https://www.highend3d.com/maya/script/file-browser-for-maya-for-maya
+
+
 
 5. 功能ui：
 <br />1.创建资产(资产根路径,资产名称，生产图片)
@@ -44,7 +49,7 @@
 7. 新增需求:
 <br />1.鼠标右键创建资产
 <br />2.图片名称显示
-<br />3.创建资产,enter确认
+<br />3.~~创建资产,enter确认~~
 <br />4.添加上传Button功能
 <br />5.Line自能搜索功能
 <br />6.创建资产即时更新图标
@@ -52,3 +57,4 @@
 <br />8.切换到Rigs模块,双击文件引用进来
 <br />9.Maya截图保存到image
 <br />10.提交文件自检,返回到4自检
+<br />11.资产名称安装正常顺序排序

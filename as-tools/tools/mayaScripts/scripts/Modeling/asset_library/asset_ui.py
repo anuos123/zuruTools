@@ -55,6 +55,8 @@ class asset_window(QtWidgets.QMainWindow):
 
         self.asset_mods_riubut = QtWidgets.QRadioButton('Mods')
         self.asset_rigs_riubut = QtWidgets.QRadioButton('Rigs')
+        self.asset_seek_line = QtWidgets.QLineEdit()
+        self.asset_seek_line.setPlaceholderText('Enter text content!')
 
         self.aseet_all_cb = QtWidgets.QCheckBox('All')
         self.aseet_char_cb = QtWidgets.QCheckBox('Char')
@@ -63,6 +65,7 @@ class asset_window(QtWidgets.QMainWindow):
 
         self.asset_name_layout.addWidget(self.asset_mods_riubut)
         self.asset_name_layout.addWidget(self.asset_rigs_riubut)
+        self.asset_name_layout.addWidget(self.asset_seek_line)
 
         self.asset_type_layout.addWidget(self.aseet_all_cb)
         self.asset_type_layout.addWidget(self.aseet_char_cb)
@@ -70,6 +73,7 @@ class asset_window(QtWidgets.QMainWindow):
         self.asset_type_layout.addWidget(self.aseet_envs_cb)
 
         self.aseet_all_cb.stateChanged.connect(self.all_asset)
+        self.asset_seek_line.editingFinished.connect(self.asset_seek)
 
         self.main_layout.addLayout(self.asset_name_layout)
         self.main_layout.addLayout(self.asset_view_layout)
@@ -143,14 +147,40 @@ class asset_window(QtWidgets.QMainWindow):
                 coordineteList.append([row, column])
 
         for i in range(len(image_list)):
-            toolButton = QtWidgets.QToolButton()
-            toolButton.setObjectName('toolButton_%s'%i)
-            toolButton.setText('toolButtons_%s'%i)
+            #toolButton = QtWidgets.QToolButton()
+            toolButton = MyQToolButton()
+
+            menu = QtWidgets.QMenu()
+            menu.addAction('This is Action 1', self.Action1)
+            menu.addAction('This is Action 2', self.Action2)
+            menu.addAction('This is Action 3', self.Action3)
+
+            toolButton.setMenu(menu)
+            toolButton.clicked.connect(self.button_press)
+
+            npg_path = os.path.basename(image_list[i]).split('.')[0]
+            toolButton.setObjectName('toolButton_{}'.format(npg_path))
+            toolButton.setText('{}'.format(npg_path))
 
             self.asset_widget_layout.addWidget(toolButton,coordineteList[i][0],coordineteList[i][1],1,1)
             icon.addPixmap(QtGui.QPixmap(image_list[i]),QtGui.QIcon.Normal,QtGui.QIcon.Off)
             toolButton.setIcon(icon)
             toolButton.setIconSize(QtCore.QSize(100,100))
+    def button_press(self):
+        print('You pressed button')
+
+    def Action1(self):
+        print ('You selected Action 1')
+
+    def Action2(self):
+        print ('You selected Action 2')
+
+    def Action3(self):
+        print ('You selected Action 3')
+    def asset_seek(self):
+        print(self.asset_seek_line.text())
+        self.load_image_to_layout()
+
 
     def show_asset_widget(self):
         from . import create_aseet_window
@@ -162,7 +192,26 @@ class asset_window(QtWidgets.QMainWindow):
             pass
         cs_win = create_aseet_window.create_asset_window()
         cs_win.show()
+        #self.load_image_to_layout()
 
+class MyQToolButton(QtWidgets.QPushButton):
+    def __init__(self, *args, **kwargs):
+        super().__init__(*args, **kwargs)
+
+        self.clicked_near_arrow = None
+        lay = QtWidgets.QHBoxLayout(self)
+
+    def setMenu(self, menu):
+        self.menu = menu
+        self.setContextMenuPolicy(QtCore.Qt.CustomContextMenu)
+        self.customContextMenuRequested.connect(self.open_context_menu)
+
+    def open_context_menu(self, point=None):
+        point = QtCore.QPoint(7, 23)
+        self.menu.exec_(self.mapToGlobal(point))
+        event = QtGui.QMouseEvent(QtCore.QEvent.MouseButtonRelease, QtCore.QPoint(10, 10), QtCore.Qt.LeftButton,
+                                  QtCore.Qt.LeftButton, QtCore.Qt.NoModifier)
+        self.mouseReleaseEvent(event)
 def show():
     global win
     try:
