@@ -5,7 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="cb70af94-40ee-4aa6-93ba-a8574512174c" name="Changes" comment="Asset updata">
-      <change beforePath="$PROJECT_DIR$/as-tools/tools/mayaScripts/scripts/Modeling/asset_library/ReadMe.md" beforeDir="false" afterPath="$PROJECT_DIR$/as-tools/tools/mayaScripts/scripts/Modeling/asset_library/ReadMe.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/as-tools/tools/mayaScripts/scripts/Modeling/asset_library/asset_ui.py" beforeDir="false" afterPath="$PROJECT_DIR$/as-tools/tools/mayaScripts/scripts/Modeling/asset_library/asset_ui.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -49,7 +50,6 @@
     </option>
   </component>
   <component name="HighlightingSettingsPerFile">
-    <setting file="file://$PROJECT_DIR$/../../UI/main.py" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/as-tools/tools/Menu.py" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/as-tools/tools/mayaScripts/scripts/Tools/BPContraintTools/BPContraintToolsUI.py" root0="FORCE_HIGHLIGHTING" />
   </component>

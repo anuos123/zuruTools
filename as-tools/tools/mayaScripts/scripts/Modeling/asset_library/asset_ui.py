@@ -72,6 +72,8 @@ class asset_window(QtWidgets.QMainWindow):
         self.asset_type_layout.addWidget(self.aseet_prop_cb)
         self.asset_type_layout.addWidget(self.aseet_envs_cb)
 
+        self.asset_mods_riubut.setChecked(True)
+
         self.aseet_all_cb.stateChanged.connect(self.all_asset)
         self.asset_seek_line.editingFinished.connect(self.asset_seek)
 
@@ -151,9 +153,10 @@ class asset_window(QtWidgets.QMainWindow):
             toolButton = MyQToolButton()
 
             menu = QtWidgets.QMenu()
-            menu.addAction('This is Action 1', self.Action1)
-            menu.addAction('This is Action 2', self.Action2)
-            menu.addAction('This is Action 3', self.Action3)
+            menu.addAction('>>>Open File', self.Action1)
+            menu.addAction('>>>Import File', self.Action2)
+            menu.addAction('>>>Reference File', self.Action3)
+            menu.addAction('>>>Go to Folder', self.Action4)
 
             toolButton.setMenu(menu)
             toolButton.clicked.connect(self.button_press)
@@ -166,6 +169,7 @@ class asset_window(QtWidgets.QMainWindow):
             icon.addPixmap(QtGui.QPixmap(image_list[i]),QtGui.QIcon.Normal,QtGui.QIcon.Off)
             toolButton.setIcon(icon)
             toolButton.setIconSize(QtCore.QSize(100,100))
+
     def button_press(self):
         print('You pressed button')
 
@@ -177,6 +181,12 @@ class asset_window(QtWidgets.QMainWindow):
 
     def Action3(self):
         print ('You selected Action 3')
+
+    def Action4(self):
+        print ('You selected Action 4')
+        os.startfile('C:\cgteamwork')
+
+
     def asset_seek(self):
         print(self.asset_seek_line.text())
         self.load_image_to_layout()
@@ -212,6 +222,8 @@ class MyQToolButton(QtWidgets.QPushButton):
         event = QtGui.QMouseEvent(QtCore.QEvent.MouseButtonRelease, QtCore.QPoint(10, 10), QtCore.Qt.LeftButton,
                                   QtCore.Qt.LeftButton, QtCore.Qt.NoModifier)
         self.mouseReleaseEvent(event)
+
+
 def show():
     global win
     try:
