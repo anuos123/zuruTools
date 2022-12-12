@@ -33,7 +33,7 @@ def show():
         elif m == 'Modeling':
             pass
         elif m == 'Rigging':
-            pass
+            pm.menuItem(l=u"Controls Tools >> 控制器工具", c='from controlTools import controlTools_ui;reload(controlTools_ui);controlTools_ui.main()')
         elif m == 'Animation':
             pass
         elif m == 'Utillties':

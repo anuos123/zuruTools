@@ -170,11 +170,33 @@ class asset_window(QtWidgets.QMainWindow):
             toolButton.setIcon(icon)
             toolButton.setIconSize(QtCore.QSize(100,100))
 
+    def load_file_path(self):
+        file_list = []
+        with open(config_json) as f:
+            result = json.load(f)
+        asset_name = result.get("asset")
+        type_name = result.get("type")
+        file_path = os.path.abspath(os.path.join(project_path, asset_name, type_name))
+        for root,dirs,files in os.walk(file_path):
+            for file in files:
+                file_list.append(file)
+
+        return file_list
+
     def button_press(self):
         print('You pressed button')
 
     def Action1(self):
         print ('You selected Action 1')
+        with open(config_json) as f:
+            result = json.load(f)
+        asset_name = result.get("asset")
+        type_name = result.get("type")
+        file_path = os.path.abspath(os.path.join(project_path, asset_name, type_name))
+        print(file_path)
+        for root,dirs,files in os.walk(file_path):
+            for file in files:
+                print(file)
 
     def Action2(self):
         print ('You selected Action 2')
@@ -184,7 +206,12 @@ class asset_window(QtWidgets.QMainWindow):
 
     def Action4(self):
         print ('You selected Action 4')
-        os.startfile('C:\cgteamwork')
+        with open(config_json) as f:
+            result = json.load(f)
+        asset_name = result.get("asset")
+        type_name = result.get("type")
+        file_path = os.path.abspath(os.path.join(project_path, asset_name, type_name))
+        os.startfile(file_path)
 
 
     def asset_seek(self):
@@ -203,6 +230,23 @@ class asset_window(QtWidgets.QMainWindow):
         cs_win = create_aseet_window.create_asset_window()
         cs_win.show()
         #self.load_image_to_layout()
+
+
+    # def mover_menu(self):
+    #
+    #     if True:
+    #         width = self.frame_laterl.width()
+    #         normal = 0
+    #         if width == 0:
+    #             extender = 200
+    #         else:
+    #             extender = normal
+    #         self.animation = QtCore.QPropertyAnimation(self.frame_laterl,b'minimumWidth')
+    #         self.animation = QtWidgets.setDuration(300)
+    #         self.animation = QtWidgets.setStartValue(width)
+    #         self.animation = QtWidgets.setEndValue(extender)
+    #         self.animation = QtWidgets.setEasingCurve(QtCore.QEasingCurve.InOutQuart)
+    #         self.animation.start()
 
 class MyQToolButton(QtWidgets.QPushButton):
     def __init__(self, *args, **kwargs):

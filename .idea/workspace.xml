@@ -4,8 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="cb70af94-40ee-4aa6-93ba-a8574512174c" name="Changes" comment="Asset updata">
-      <change beforePath="$PROJECT_DIR$/as-tools/tools/mayaScripts/scripts/Modeling/asset_library/ReadMe.md" beforeDir="false" afterPath="$PROJECT_DIR$/as-tools/tools/mayaScripts/scripts/Modeling/asset_library/ReadMe.md" afterDir="false" />
+    <list default="true" id="cb70af94-40ee-4aa6-93ba-a8574512174c" name="Changes" comment="2022.12.06">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/as-tools/tools/Menu.py" beforeDir="false" afterPath="$PROJECT_DIR$/as-tools/tools/Menu.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/as-tools/tools/mayaScripts/scripts/Modeling/asset_library/asset_ui.py" beforeDir="false" afterPath="$PROJECT_DIR$/as-tools/tools/mayaScripts/scripts/Modeling/asset_library/asset_ui.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/as-tools/tools/mayaScripts/scripts/Rigging/controlTools/controls.py" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -77,7 +80,7 @@
       <recent name="D:\UI" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.main">
+  <component name="RunManager" selected="Python.open_poject">
     <configuration name="Unnamed" type="PythonConfigurationType" factoryName="Python" nameIsGenerated="true">
       <module name="zuruTools" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -120,8 +123,30 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <configuration name="open_poject" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="zuruTools" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/as-tools/tools/apps/open_project_folder" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/as-tools/tools/apps/open_project_folder/open_poject.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.open_poject" />
         <item itemvalue="Python.main" />
       </list>
     </recent_temporary>
@@ -170,7 +195,21 @@
       <option name="project" value="LOCAL" />
       <updated>1670235775137</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="2022.12.06">
+      <created>1670319587995</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1670319587995</updated>
+    </task>
+    <task id="LOCAL-00007" summary="2022.12.06">
+      <created>1670319620991</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1670319620991</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -201,6 +240,7 @@
       <path value="$PROJECT_DIR$/as-tools/tools/mayaScripts/scripts/Utillties/Prism" />
     </ignored-roots>
     <MESSAGE value="Asset updata" />
-    <option name="LAST_COMMIT_MESSAGE" value="Asset updata" />
+    <MESSAGE value="2022.12.06" />
+    <option name="LAST_COMMIT_MESSAGE" value="2022.12.06" />
   </component>
 </project>
