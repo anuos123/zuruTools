@@ -6,9 +6,8 @@
   <component name="ChangeListManager">
     <list default="true" id="cb70af94-40ee-4aa6-93ba-a8574512174c" name="Changes" comment="2022.12.06">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/as-tools/tools/Menu.py" beforeDir="false" afterPath="$PROJECT_DIR$/as-tools/tools/Menu.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/as-tools/tools/mayaScripts/scripts/Modeling/asset_library/asset_ui.py" beforeDir="false" afterPath="$PROJECT_DIR$/as-tools/tools/mayaScripts/scripts/Modeling/asset_library/asset_ui.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/as-tools/tools/mayaScripts/scripts/Rigging/controlTools/controls.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/as-tools/tools/mayaScripts/scripts/Rigging/controlTools/ReadMe.md" beforeDir="false" afterPath="$PROJECT_DIR$/as-tools/tools/mayaScripts/scripts/Rigging/controlTools/ReadMe.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/as-tools/tools/mayaScripts/scripts/Rigging/controlTools/controlTools_ui.py" beforeDir="false" afterPath="$PROJECT_DIR$/as-tools/tools/mayaScripts/scripts/Rigging/controlTools/controlTools_ui.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -209,7 +208,14 @@
       <option name="project" value="LOCAL" />
       <updated>1670319620991</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="2022.12.06">
+      <created>1670841157139</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1670841157139</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -242,5 +248,16 @@
     <MESSAGE value="Asset updata" />
     <MESSAGE value="2022.12.06" />
     <option name="LAST_COMMIT_MESSAGE" value="2022.12.06" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/../../Mya_ScriptCode/Script_01/colorizer/ui.py</url>
+          <line>3</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>

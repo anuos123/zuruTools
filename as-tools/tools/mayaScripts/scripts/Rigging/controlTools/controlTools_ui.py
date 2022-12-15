@@ -31,13 +31,17 @@ class controls_win(QMainWindow):
         controls_layout = QHBoxLayout()
         shape_layout = QHBoxLayout()
         color_layout = QHBoxLayout()
+        vis_layout = QHBoxLayout()
 
         self.AddControls_Bnt = QPushButton(u'Add Controls')
         self.AddControls_China_Bnt = QPushButton(u'Add China Controls')
         self.rep_ctrlshape_Bnt = QPushButton(u'Replace Controls Shapes')
+        self.vis_Bnt = QPushButton(u'vis Controls')
+        self.rep_ctrlshape_Bnt.setToolTip(u'1.选择需要替换的控制器,\n2.再选择想要的形状的控制!')
         controls_layout.addWidget(self.AddControls_Bnt)
         controls_layout.addWidget(self.AddControls_China_Bnt)
         shape_layout.addWidget(self.rep_ctrlshape_Bnt)
+        vis_layout.addWidget(self.vis_Bnt)
 
         colors = 'blue','light_red','red','green','yellow'
         for c in colors:
@@ -48,9 +52,11 @@ class controls_win(QMainWindow):
         self.AddControls_Bnt.clicked.connect(self.select_jntCtrl)
         self.AddControls_China_Bnt.clicked.connect(self.china_jntCtrl)
         self.rep_ctrlshape_Bnt.clicked.connect(self.replace_controlShape)
+        self.vis_Bnt.clicked.connect(self.controls_shape_lineWidth)
 
         MainLayout.addLayout(controls_layout)
         MainLayout.addLayout(shape_layout)
+        MainLayout.addLayout(vis_layout)
         MainLayout.addLayout(color_layout)
 
         Main_Frame = QWidget()
@@ -157,6 +163,12 @@ class controls_win(QMainWindow):
         for shape in list_shape:
             cmds.setAttr(shape + ".overrideEnabled", 1)
             cmds.setAttr(shape + ".overrideColor", color)
+
+    def controls_shape_lineWidth(self):
+        list = cmds.ls(sl=1)
+        shape_list = cmds.listRelatives(list, s=True)
+        for shape in shape_list:
+            cmds.setAttr("{}.lineWidth".format(shape), 2)
 def main():
     global win
     try:
