@@ -4,91 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="cb70af94-40ee-4aa6-93ba-a8574512174c" name="Changes" comment="2022.12.06">
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/as-tools/tools/Menu.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/as-tools/tools/__init__.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/as-tools/tools/apps/open_project_folder/ReadMe.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/as-tools/tools/apps/open_project_folder/__init__.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/as-tools/tools/apps/open_project_folder/folderPaht.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/as-tools/tools/apps/open_project_folder/open_poject.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/as-tools/tools/mayaScripts/scripts/Animation/__init__.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/as-tools/tools/mayaScripts/scripts/Help/__init__.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/as-tools/tools/mayaScripts/scripts/Modeling/ReadMe.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/as-tools/tools/mayaScripts/scripts/Modeling/__init__.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/as-tools/tools/mayaScripts/scripts/Modeling/asset_library/ReadMe.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/as-tools/tools/mayaScripts/scripts/Modeling/asset_library/__init__.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/as-tools/tools/mayaScripts/scripts/Modeling/asset_library/asset.ui" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/as-tools/tools/mayaScripts/scripts/Modeling/asset_library/asset_ui.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/as-tools/tools/mayaScripts/scripts/Modeling/asset_library/config.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/as-tools/tools/mayaScripts/scripts/Modeling/asset_library/config.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/as-tools/tools/mayaScripts/scripts/Modeling/asset_library/create_aseet_window.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/as-tools/tools/mayaScripts/scripts/Modeling/asset_library/model_clear.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/as-tools/tools/mayaScripts/scripts/Modeling/asset_library/template.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/as-tools/tools/mayaScripts/scripts/Modeling/maya_asset_viewer/__init__.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/as-tools/tools/mayaScripts/scripts/Modeling/maya_asset_viewer/asset_ui.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/as-tools/tools/mayaScripts/scripts/Modeling/maya_asset_viewer/asset_viewer_plugin.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/as-tools/tools/mayaScripts/scripts/Modeling/maya_asset_viewer/icons/addBookmark.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/as-tools/tools/mayaScripts/scripts/Modeling/maya_asset_viewer/icons/back.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/as-tools/tools/mayaScripts/scripts/Modeling/maya_asset_viewer/icons/bookmark.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/as-tools/tools/mayaScripts/scripts/Modeling/maya_asset_viewer/icons/editBookmark.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/as-tools/tools/mayaScripts/scripts/Modeling/maya_asset_viewer/icons/folder.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/as-tools/tools/mayaScripts/scripts/Modeling/maya_asset_viewer/icons/icon.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/as-tools/tools/mayaScripts/scripts/Modeling/maya_asset_viewer/icons/icon.psd" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/as-tools/tools/mayaScripts/scripts/Modeling/maya_asset_viewer/icons/import.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/as-tools/tools/mayaScripts/scripts/Modeling/maya_asset_viewer/icons/mayaIcon.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/as-tools/tools/mayaScripts/scripts/Modeling/maya_asset_viewer/icons/newPrj.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/as-tools/tools/mayaScripts/scripts/Modeling/maya_asset_viewer/icons/removeBookmark.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/as-tools/tools/mayaScripts/scripts/Modeling/maya_asset_viewer/icons/snapshot.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/as-tools/tools/mayaScripts/scripts/Modeling/maya_asset_viewer/modules/__init__.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/as-tools/tools/mayaScripts/scripts/Modeling/maya_asset_viewer/modules/create_config.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/as-tools/tools/mayaScripts/scripts/Modeling/maya_asset_viewer/modules/create_project_template.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/as-tools/tools/mayaScripts/scripts/Modeling/maya_asset_viewer/modules/snapshot_function.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/as-tools/tools/mayaScripts/scripts/Modeling/maya_asset_viewer/modules/widget_functions.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/as-tools/tools/mayaScripts/scripts/Modeling/maya_asset_viewer/shelf_button.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/as-tools/tools/mayaScripts/scripts/Modeling/maya_asset_viewer/widgets/__init__.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/as-tools/tools/mayaScripts/scripts/Modeling/maya_asset_viewer/widgets/asset_viewer.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/as-tools/tools/mayaScripts/scripts/Modeling/maya_asset_viewer/widgets/capture_screen_widget.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/as-tools/tools/mayaScripts/scripts/Modeling/maya_asset_viewer/widgets/insert_fileName_widget.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/as-tools/tools/mayaScripts/scripts/Modeling/maya_asset_viewer/widgets/pyside2_helper.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/as-tools/tools/mayaScripts/scripts/Modeling/maya_asset_viewer/widgets/quick_save_progress_widget.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/as-tools/tools/mayaScripts/scripts/Modeling/maya_asset_viewer/widgets/setting_widget.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/as-tools/tools/mayaScripts/scripts/Rigging/__init__.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/as-tools/tools/mayaScripts/scripts/Rigging/controlTools/ReadMe.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/as-tools/tools/mayaScripts/scripts/Rigging/controlTools/__init__.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/as-tools/tools/mayaScripts/scripts/Rigging/controlTools/controlTools_ui.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/as-tools/tools/mayaScripts/scripts/Rigging/faceRig/ReadMe.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/as-tools/tools/mayaScripts/scripts/Rigging/faceRig/Setting.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/as-tools/tools/mayaScripts/scripts/Rigging/faceRig/Setting/Jaw/Jaw_Low.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/as-tools/tools/mayaScripts/scripts/Rigging/faceRig/Setting/Jaw/Jaw_Up.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/as-tools/tools/mayaScripts/scripts/Rigging/faceRig/Setting/Jaw_Attr_Setting.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/as-tools/tools/mayaScripts/scripts/Rigging/faceRig/Setting/Jaw_LipBroad.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/as-tools/tools/mayaScripts/scripts/Rigging/faceRig/__init__.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/as-tools/tools/mayaScripts/scripts/Rigging/faceRig/faceRig_ui.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/as-tools/tools/mayaScripts/scripts/Rigging/faceRig/jaw_utils.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/as-tools/tools/mayaScripts/scripts/Rigging/faceRig/lip_section_setting.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/as-tools/tools/mayaScripts/scripts/Rigging/faceRig/mouth_location.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/as-tools/tools/mayaScripts/scripts/Rigging/faceRig/softJnt.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/as-tools/tools/mayaScripts/scripts/Tools/BPContraintTools/BPContraintTools.ui" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/as-tools/tools/mayaScripts/scripts/Tools/BPContraintTools/BPContraintToolsUI.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/as-tools/tools/mayaScripts/scripts/Tools/BPContraintTools/__init__.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/as-tools/tools/mayaScripts/scripts/Tools/BPContraintTools/header.ui" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/as-tools/tools/mayaScripts/scripts/Tools/__init__.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/as-tools/tools/mayaScripts/scripts/Utillties/Prism" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/as-tools/tools/mayaScripts/scripts/Utillties/RenameTools/ReadMe.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/as-tools/tools/mayaScripts/scripts/Utillties/RenameTools/RenameTools_ui.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/as-tools/tools/mayaScripts/scripts/Utillties/RenameTools/__init__.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/as-tools/tools/mayaScripts/scripts/Utillties/RenameTools/user.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/as-tools/tools/mayaScripts/scripts/Utillties/__init__.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/as-tools/tools/ue/PythonUI/__init__.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/as-tools/tools/ue/PythonUI/rename.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/as-tools/tools/ue/ReadMe.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/as-tools/tools/ue/kit_texturn/__init__.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/as-tools/tools/ue/kit_texturn/texturn_setting.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/as-tools/tools/userSetup.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/setup.bat" beforeDir="false" afterPath="$PROJECT_DIR$/setup.bat" afterDir="false" />
-    </list>
+    <list default="true" id="cb70af94-40ee-4aa6-93ba-a8574512174c" name="Changes" comment="2022.12.15" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -258,7 +174,14 @@
       <option name="project" value="LOCAL" />
       <updated>1671069857678</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="2022.12.15">
+      <created>1671102657058</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1671102657058</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -290,7 +213,8 @@
     </ignored-roots>
     <MESSAGE value="Asset updata" />
     <MESSAGE value="2022.12.06" />
-    <option name="LAST_COMMIT_MESSAGE" value="2022.12.06" />
+    <MESSAGE value="2022.12.15" />
+    <option name="LAST_COMMIT_MESSAGE" value="2022.12.15" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
