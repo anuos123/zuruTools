@@ -5,10 +5,89 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="cb70af94-40ee-4aa6-93ba-a8574512174c" name="Changes" comment="2022.12.06">
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/as-tools/tools/Menu.py" beforeDir="false" afterPath="$PROJECT_DIR$/as-tools/tools/Menu.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/as-tools/tools/mayaScripts/scripts/Modeling/asset_library/asset_ui.py" beforeDir="false" afterPath="$PROJECT_DIR$/as-tools/tools/mayaScripts/scripts/Modeling/asset_library/asset_ui.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/as-tools/tools/mayaScripts/scripts/Rigging/controlTools/controls.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/as-tools/tools/Menu.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/as-tools/tools/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/as-tools/tools/apps/open_project_folder/ReadMe.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/as-tools/tools/apps/open_project_folder/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/as-tools/tools/apps/open_project_folder/folderPaht.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/as-tools/tools/apps/open_project_folder/open_poject.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/as-tools/tools/mayaScripts/scripts/Animation/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/as-tools/tools/mayaScripts/scripts/Help/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/as-tools/tools/mayaScripts/scripts/Modeling/ReadMe.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/as-tools/tools/mayaScripts/scripts/Modeling/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/as-tools/tools/mayaScripts/scripts/Modeling/asset_library/ReadMe.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/as-tools/tools/mayaScripts/scripts/Modeling/asset_library/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/as-tools/tools/mayaScripts/scripts/Modeling/asset_library/asset.ui" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/as-tools/tools/mayaScripts/scripts/Modeling/asset_library/asset_ui.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/as-tools/tools/mayaScripts/scripts/Modeling/asset_library/config.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/as-tools/tools/mayaScripts/scripts/Modeling/asset_library/config.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/as-tools/tools/mayaScripts/scripts/Modeling/asset_library/create_aseet_window.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/as-tools/tools/mayaScripts/scripts/Modeling/asset_library/model_clear.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/as-tools/tools/mayaScripts/scripts/Modeling/asset_library/template.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/as-tools/tools/mayaScripts/scripts/Modeling/maya_asset_viewer/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/as-tools/tools/mayaScripts/scripts/Modeling/maya_asset_viewer/asset_ui.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/as-tools/tools/mayaScripts/scripts/Modeling/maya_asset_viewer/asset_viewer_plugin.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/as-tools/tools/mayaScripts/scripts/Modeling/maya_asset_viewer/icons/addBookmark.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/as-tools/tools/mayaScripts/scripts/Modeling/maya_asset_viewer/icons/back.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/as-tools/tools/mayaScripts/scripts/Modeling/maya_asset_viewer/icons/bookmark.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/as-tools/tools/mayaScripts/scripts/Modeling/maya_asset_viewer/icons/editBookmark.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/as-tools/tools/mayaScripts/scripts/Modeling/maya_asset_viewer/icons/folder.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/as-tools/tools/mayaScripts/scripts/Modeling/maya_asset_viewer/icons/icon.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/as-tools/tools/mayaScripts/scripts/Modeling/maya_asset_viewer/icons/icon.psd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/as-tools/tools/mayaScripts/scripts/Modeling/maya_asset_viewer/icons/import.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/as-tools/tools/mayaScripts/scripts/Modeling/maya_asset_viewer/icons/mayaIcon.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/as-tools/tools/mayaScripts/scripts/Modeling/maya_asset_viewer/icons/newPrj.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/as-tools/tools/mayaScripts/scripts/Modeling/maya_asset_viewer/icons/removeBookmark.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/as-tools/tools/mayaScripts/scripts/Modeling/maya_asset_viewer/icons/snapshot.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/as-tools/tools/mayaScripts/scripts/Modeling/maya_asset_viewer/modules/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/as-tools/tools/mayaScripts/scripts/Modeling/maya_asset_viewer/modules/create_config.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/as-tools/tools/mayaScripts/scripts/Modeling/maya_asset_viewer/modules/create_project_template.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/as-tools/tools/mayaScripts/scripts/Modeling/maya_asset_viewer/modules/snapshot_function.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/as-tools/tools/mayaScripts/scripts/Modeling/maya_asset_viewer/modules/widget_functions.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/as-tools/tools/mayaScripts/scripts/Modeling/maya_asset_viewer/shelf_button.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/as-tools/tools/mayaScripts/scripts/Modeling/maya_asset_viewer/widgets/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/as-tools/tools/mayaScripts/scripts/Modeling/maya_asset_viewer/widgets/asset_viewer.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/as-tools/tools/mayaScripts/scripts/Modeling/maya_asset_viewer/widgets/capture_screen_widget.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/as-tools/tools/mayaScripts/scripts/Modeling/maya_asset_viewer/widgets/insert_fileName_widget.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/as-tools/tools/mayaScripts/scripts/Modeling/maya_asset_viewer/widgets/pyside2_helper.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/as-tools/tools/mayaScripts/scripts/Modeling/maya_asset_viewer/widgets/quick_save_progress_widget.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/as-tools/tools/mayaScripts/scripts/Modeling/maya_asset_viewer/widgets/setting_widget.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/as-tools/tools/mayaScripts/scripts/Rigging/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/as-tools/tools/mayaScripts/scripts/Rigging/controlTools/ReadMe.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/as-tools/tools/mayaScripts/scripts/Rigging/controlTools/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/as-tools/tools/mayaScripts/scripts/Rigging/controlTools/controlTools_ui.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/as-tools/tools/mayaScripts/scripts/Rigging/faceRig/ReadMe.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/as-tools/tools/mayaScripts/scripts/Rigging/faceRig/Setting.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/as-tools/tools/mayaScripts/scripts/Rigging/faceRig/Setting/Jaw/Jaw_Low.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/as-tools/tools/mayaScripts/scripts/Rigging/faceRig/Setting/Jaw/Jaw_Up.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/as-tools/tools/mayaScripts/scripts/Rigging/faceRig/Setting/Jaw_Attr_Setting.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/as-tools/tools/mayaScripts/scripts/Rigging/faceRig/Setting/Jaw_LipBroad.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/as-tools/tools/mayaScripts/scripts/Rigging/faceRig/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/as-tools/tools/mayaScripts/scripts/Rigging/faceRig/faceRig_ui.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/as-tools/tools/mayaScripts/scripts/Rigging/faceRig/jaw_utils.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/as-tools/tools/mayaScripts/scripts/Rigging/faceRig/lip_section_setting.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/as-tools/tools/mayaScripts/scripts/Rigging/faceRig/mouth_location.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/as-tools/tools/mayaScripts/scripts/Rigging/faceRig/softJnt.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/as-tools/tools/mayaScripts/scripts/Tools/BPContraintTools/BPContraintTools.ui" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/as-tools/tools/mayaScripts/scripts/Tools/BPContraintTools/BPContraintToolsUI.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/as-tools/tools/mayaScripts/scripts/Tools/BPContraintTools/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/as-tools/tools/mayaScripts/scripts/Tools/BPContraintTools/header.ui" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/as-tools/tools/mayaScripts/scripts/Tools/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/as-tools/tools/mayaScripts/scripts/Utillties/Prism" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/as-tools/tools/mayaScripts/scripts/Utillties/RenameTools/ReadMe.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/as-tools/tools/mayaScripts/scripts/Utillties/RenameTools/RenameTools_ui.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/as-tools/tools/mayaScripts/scripts/Utillties/RenameTools/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/as-tools/tools/mayaScripts/scripts/Utillties/RenameTools/user.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/as-tools/tools/mayaScripts/scripts/Utillties/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/as-tools/tools/ue/PythonUI/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/as-tools/tools/ue/PythonUI/rename.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/as-tools/tools/ue/ReadMe.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/as-tools/tools/ue/kit_texturn/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/as-tools/tools/ue/kit_texturn/texturn_setting.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/as-tools/tools/userSetup.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/setup.bat" beforeDir="false" afterPath="$PROJECT_DIR$/setup.bat" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -53,8 +132,7 @@
   </component>
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$PROJECT_DIR$/../../UI/main.py" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/as-tools/tools/Menu.py" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/as-tools/tools/mayaScripts/scripts/Tools/BPContraintTools/BPContraintToolsUI.py" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/setup.bat" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
@@ -67,62 +145,20 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;D:/zuru/zuruTools&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;com.jetbrains.python.configuration.PythonContentEntriesConfigurable&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "last_opened_file_path": "D:/Zuru/devkitBase/devkit/other/pymel/extras/completion/py",
+    "settings.editor.selected.configurable": "com.jetbrains.python.configuration.PythonContentEntriesConfigurable"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="D:\UI" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.open_poject">
-    <configuration name="Unnamed" type="PythonConfigurationType" factoryName="Python" nameIsGenerated="true">
-      <module name="zuruTools" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="C:\Users\kangwen\AppData\Local\Programs\Python\Python39\python.exe" />
-      <option name="WORKING_DIRECTORY" value="" />
-      <option name="IS_MODULE_SDK" value="false" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="main" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="zuruTools" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/../../UI" />
-      <option name="IS_MODULE_SDK" value="false" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/../../UI/main.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
+  <component name="RunManager">
     <configuration name="open_poject" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="zuruTools" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -147,7 +183,6 @@
     <recent_temporary>
       <list>
         <item itemvalue="Python.open_poject" />
-        <item itemvalue="Python.main" />
       </list>
     </recent_temporary>
   </component>
@@ -209,7 +244,21 @@
       <option name="project" value="LOCAL" />
       <updated>1670319620991</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="2022.12.06">
+      <created>1670841157139</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1670841157139</updated>
+    </task>
+    <task id="LOCAL-00009" summary="2022.12.06">
+      <created>1671069857678</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1671069857678</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -242,5 +291,16 @@
     <MESSAGE value="Asset updata" />
     <MESSAGE value="2022.12.06" />
     <option name="LAST_COMMIT_MESSAGE" value="2022.12.06" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/../../Mya_ScriptCode/Script_01/colorizer/ui.py</url>
+          <line>3</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>
